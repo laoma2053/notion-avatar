@@ -1,0 +1,14 @@
+:root {
+  --notion-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  --notion-bg: rgb(251, 251, 250);
+  --notion-text: rgb(55, 53, 47);
+  --notion-text-light: rgba(55, 53, 47, 0.65);
+}
+
+body {
+  font-family: var(--notion-font);
+  background-color: var(--notion-bg);
+  color: var(--notion-text);
+}
+
+/* 其他全局样式... */ 
